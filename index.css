@@ -1,0 +1,303 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-item{
+    height: 90vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 8vw;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 3vw;
+    text-transform: uppercase;
+    letter-spacing: 2vmin;
+    margin-top: 1vh;
+
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    line-height: 1.9;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(180, 180, 228);
+    display: inline-block;
+    padding: 1vh 2vh;
+    margin-top: 1vh;
+    color: #fff;
+    border-radius: 2vh;
+
+}
+.carousel-inner:before{
+    content: '';
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navbar .getstarted{
+    background:crimson;
+    margin-left: 10vh;
+    border-radius: 1vh;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    line-height: 2.3;
+}
+.navbar-nav a{
+    font-size: 3vh;
+    padding: 2vh 5vh;
+    margin-right: 18vh;
+    
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    justify-content: center;
+
+}
+.navbar-dark.navbar-brand{
+    color: #000;
+    font-size: 6vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1vh;
+}
+/* .navbar-dark .navbar-brand span{
+    font-size: 4vh;
+    color: crimson; */
+
+/* } */
+.navbar-dark.navbar-brand:focus,
+.navbar-dark.navbar-brand:hover{
+    color: #000;
+
+}
+.navbar-dark.navbar-nav .nav-link{
+    color: #000;
+}
+.navbar-dark.navbar-nav .nav-link :focus,
+.navbar-dark.navbar-nav .nav-link :hover{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+
+}
+.navbar-toggler{
+    padding: 1vh 2vh;
+    font-size: 2vh;
+    line-height: 0.3;
+    background: #000;
+
+}
+@media only screen and (max-width: 30vh){
+    .navbar-nav{
+        text-align: center;
+
+    }
+    .carousel-caption{
+        bottom: 80vh;
+    }
+    .carousel-caption h5{
+        font-size: 3vh;
+
+    }
+    .carousel-caption a {
+        padding: 1vh 2vh;
+        font-size: 3vh;
+
+    }
+    .navbar .getstarted{
+        display: none;
+
+    }
+}
+#bunny{
+    color: #000;
+    font-weight:bold ;
+    font-size: 2vh;
+
+}
+#we{
+    color: #000;
+}
+#logo{
+    width: 10vh;
+    height: 8vh;
+    margin-left: 2rem;
+    
+}
+#line{
+    color: blanchedalmond;
+
+}
+.box{
+    justify-content: right;
+    position: absolute;
+    right: 10vh;
+    width: 80vh;
+    height: 30vh;
+    
+}
+.recdetail{
+    padding: 100px 0px 60px;
+    height: 700px;
+
+}
+.row{
+    height: 50%;
+    width: 100%;
+}
+.recdetail h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+
+.rowsetting{
+    margin: 80px 0px !important;
+}
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+.fa-users{
+    margin-top: 4vh;
+    padding: 2px;
+}
+.fa-pencil-square{
+    margin-top: 4vh;
+    
+}
+.fa-comments{
+    margin-top: 4vh;
+}
+.rowsetting p{
+    padding: 10px;
+    color: #000;
+
+}
+.rowsetting h2{
+    margin-top: 8vh;
+    font-weight: bold;
+    font-size: 6vh;
+    color: #000;
+}
+.app{
+   padding: 100px 0px 50px;
+    width: 100%;
+}
+.app h2{
+    font-size: 7vh;
+    font-weight: bold;
+    color: #000;
+}
+#game{
+    height: 80%;
+    width: 100%;
+}
+#chatbot{
+    height: 80%;
+    width: 100%;
+    
+}
+.card{
+    margin-top: 10vh;
+    height: 100vh;
+}
+.card-body h2{
+    font-size: 20px;
+}
+.ourteam{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+    margin-bottom: 25%;
+}
+.ourteam h1{
+    font-size: 11vh;
+    font-weight: bold;
+    color: #000;
+}
+.team-setting{
+    margin-top: 70px !important;
+}
+.btn{
+    justify-content: center !important;
+    align-items: center;
+    margin-left: 40%;
+    margin-bottom: 150rem;
+    width: 20%;
+    height: 5%;
+    background-color: rgb(137, 216, 243);
+    font-weight: bold;
+    font-size: medium;
+    
+
+}
+
+.btn:hover {
+    background-color: aquamarine;
+}
+
+.sih {
+    margin-top: -215px;
+    margin-bottom: 100px
+}
+.sih img{
+    width: 80%;
+    height: 40rem;
+    margin-left: 6rem;
+
+}
+
+#cut h2{
+    text-decoration: line-through;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    margin-left: 37rem;
+    color: #000;
+}
+
+#cut h1{
+    margin-left: 32rem;
+    margin-bottom: 18rem;
+    color: #000;
+}
+@media(min-width:992px){
+
+}
+@media(min-width:768px) and(max-width:991px){
+
+}
+@media(min-width:575px) and(max-width:767px){
+
+}
+@media(min-width:480px) and (max-width:574px){
+
+}
+@media(max-width:479px){
+
+    .recdetail{
+       
+        height: 1200px;
+    
+    }
+   .ourteam{
+    height:4000px;
+   }
+   
+
+}
+
+  
+    
